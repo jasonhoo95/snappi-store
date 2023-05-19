@@ -35,7 +35,7 @@ export default function Home() {
 			<div className="px-[90px]">
 				<SearchBar />
 
-				<div className="flex items-center h-[529px] image-container1">
+				<div className="flex bg-white items-center h-[529px] image-container1">
 					<div className="w-[60%] h-[100%] p-3 relative">
 						<div className="absolute w-[50%] left-[50px] top-[120px]">
 							<div className="text-[25px]">NEW ARRIVAL</div>
@@ -51,7 +51,7 @@ export default function Home() {
 							<div className="bg-[#67E0E9] relative h-full rounded-[10px]">
 								<div className="absolute w-[50%] left-[50px] bottom-[20px]">
 									<div className="text-[21px]">NEW ARRIVAL</div>
-									<div className="text-[25px] font-bold leading-[1.5rem]">ELEVATE YOUR STYLE WITH PRODUCT ABC:</div>
+									<div className="text-[25px] font-bold leading-[1.5rem]">ELEVATE YOUR STYLE WITH PRODUCT B:</div>
 								</div>
 								<img
 									className="h-full w-full object-cover"
