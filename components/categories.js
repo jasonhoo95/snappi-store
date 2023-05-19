@@ -1,6 +1,6 @@
 export default function Category() {
 	return (
-		<div className="grid main-category my-3">
+		<div className="grid main-category my-3 text-black">
 			<div className="grey-card">
 				<div className="w-[80%]">
 					<img

@@ -1,13 +1,13 @@
 export default function Footer() {
 	return (
-		<div className="bg-[#F9F9F9] p-[20px]">
+		<div className="bg-[#F9F9F9] p-[20px] text-black">
 			<div className="flex flex-col items-center">
 				<h3 className="font-bold my-3">Subscribe to our newsletter</h3>
 				<div className="text-[12px] my-3">Get the latest updates on new products and upcoming sales</div>
 				<div className="w-[537px] my-3 p-[10px] rounded-[10px] bg-white px-3 justify-center ml-auto mr-auto relative">
 					<input
 						placeholder="enter your email address"
-						className="w-full text-[12px] outline-none"
+						className="w-full text-[12px] outline-none bg-white"
 						type="text"
 					/>
 					<div className="absolute right-[5px] w-[120px] flex justify-center py-[8px] rounded-[10px] top-[5px] bg-[#EF2B5F] text-[12px] text-white">Subscribe</div>

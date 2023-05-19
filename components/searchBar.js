@@ -1,6 +1,6 @@
 export default function SearchBar() {
 	return (
-		<div className="flex items-center py-2">
+		<div className="flex items-center py-2 text-black">
 			<div className="px-3">
 				<img src="/snappi-logo.png" />
 			</div>
