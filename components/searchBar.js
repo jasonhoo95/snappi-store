@@ -7,14 +7,14 @@ export default function SearchBar() {
 			<div className="flex items-center pl-[30px]">
 				<img src="/location.png" />
 				<div>
-					<div>Deliver to</div>
-					<div>South Africa</div>
+					<div className="text-[12px]">Deliver to</div>
+					<div className="text-[#EF2B5F]">South Africa</div>
 				</div>
 			</div>
 
 			<div className="w-[50%] px-3 justify-center ml-auto mr-auto relative">
 				<input
-					className="search-bar"
+					className="search-bar outline-none"
 					placeholder="Search Snappi"
 					type="text"
 				/>

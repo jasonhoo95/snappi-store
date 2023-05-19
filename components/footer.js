@@ -16,30 +16,74 @@ export default function Footer() {
 					<div className="px-3">
 						<img src="/snappi-logo.png" />
 					</div>
-					<div>
+					<div className="flex flex-col">
 						<div className="font-bold">ABOUT</div>
-						<div className="text-[12px] my-3">About Snappi</div>
-						<div className="text-[12px] my-3">Terms of Use</div>
-						<div className="text-[12px] my-3">Privacy Policy</div>
-						<div className="text-[12px] my-3">Return Policy</div>
-						<div className="text-[12px] my-3">Cookie Policy</div>
+						<a
+							href="#"
+							className="text-[12px] my-2">
+							About Snappi
+						</a>
+						<a
+							href="#"
+							className="text-[12px] my-2">
+							Terms of Use
+						</a>
+						<a
+							href="#"
+							className="text-[12px] my-2">
+							Privacy Policy
+						</a>
+						<a
+							href="#"
+							className="text-[12px] my-2">
+							Return Policy
+						</a>
+						<a
+							href="#"
+							className="text-[12px] my-2">
+							Cookie Policy
+						</a>
 					</div>
-					<div>
-						<div className="font-bold">HELP</div>
-						<div className="text-[12px] my-3">Snappi Returns</div>
-						<div className="text-[12px] my-3">Contact Support</div>
-						<div className="text-[12px] my-3">FAQ</div>
+					<div className="flex flex-col">
+						<a
+							href="#"
+							className="font-bold">
+							HELP
+						</a>
+						<a
+							href="#"
+							className="text-[12px] my-2">
+							Snappi Returns
+						</a>
+						<a
+							href="#"
+							className="text-[12px] my-2">
+							Contact Support
+						</a>
+						<a
+							href="#"
+							className="text-[12px] my-2">
+							FAQ
+						</a>
 
-						<div className="text-[12px] my-3">Request a Return</div>
+						<a className="text-[12px] my-2">Request a Return</a>
 					</div>
 					<div>
 						<div className="font-bold">VISIT</div>
-						<div>About Snappi</div>
-						<div>Terms of Use</div>
+						<div className="flex my-2">
+							<img
+								className="w-[30px] h-[30px] mr-3"
+								src="/fb-icon.png"
+							/>
+							<img
+								className="w-[30px] h-[30px]"
+								src="/instagram.png"
+							/>
+						</div>
 					</div>
 					<div>
 						<div className="font-bold">PAYMENT</div>
-						<div className="flex">
+						<div className="flex my-2">
 							<img
 								className="w-[30px] h-[30px] mr-3"
 								src="/visa.png"
