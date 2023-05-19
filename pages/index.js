@@ -31,11 +31,11 @@ export default function Home() {
 		});
 	};
 	return (
-		<div>
+		<div className="bg-white">
 			<div className="px-[90px]">
 				<SearchBar />
 
-				<div className="flex bg-white items-center h-[529px] image-container1">
+				<div className="flex items-center h-[529px] image-container1">
 					<div className="w-[60%] h-[100%] p-3 relative">
 						<div className="absolute w-[50%] left-[50px] top-[120px]">
 							<div className="text-[25px]">NEW ARRIVAL</div>
