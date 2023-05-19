@@ -65,7 +65,7 @@ export default function TermsAndCondition() {
 				</li>
 				<li className="my-3 flex">
 					<div className="ml-[10px]">
-						By using the platform, you agree to indemnify and hold us harmless from any claims, damages, and expenses, including reasonable attorneys' fees, arising out of or in
+						By using the platform, you agree to indemnify and hold us harmless from any claims, damages, and expenses, including reasonable attorneys fees, arising out of or in
 						connection with your use of the platform.
 					</div>
 				</li>

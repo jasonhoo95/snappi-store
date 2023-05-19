@@ -143,7 +143,7 @@ export default function Category() {
 					/>
 				</div>
 
-				<div>Music, Book & Dvd's</div>
+				<div>Music, Book & Dvds</div>
 			</div>
 
 			<div className="grey-card">
