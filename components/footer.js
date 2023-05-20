@@ -81,11 +81,11 @@ export default function Footer() {
 						<div className="font-bold">PAYMENT</div>
 						<div className="flex my-2">
 							<img
-								className="w-[30px] h-[30px] mr-3"
+								className="w-[40px] h-[30px] mr-3"
 								src="/visa.png"
 							/>
 							<img
-								className="w-[30px] h-[30px]"
+								className="w-[40px] h-[30px]"
 								src="/mastercard.png"
 							/>
 						</div>
