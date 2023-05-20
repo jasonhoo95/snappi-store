@@ -1,9 +1,9 @@
 export default function Footer() {
 	return (
-		<div className="bg-[#F9F9F9] p-[20px] text-black">
-			<div className="flex flex-col items-center">
-				<h3 className="font-bold my-3">Subscribe to our newsletter</h3>
-				<div className="text-[12px] my-3">Get the latest updates on new products and upcoming sales</div>
+		<div className="bg-[#F9F9F9] py-[20px] px-[90px] text-black">
+			<div className="flex flex-col items-center mt-[50px]">
+				<h3 className="font-bold my-1">Subscribe to our newsletter</h3>
+				<div className="text-[12px] my-1">Get the latest updates on new products and upcoming sales</div>
 				<div className="w-[537px] my-3 p-[10px] rounded-[10px] bg-white px-3 justify-center ml-auto mr-auto relative">
 					<input
 						placeholder="enter your email address"
@@ -17,56 +17,52 @@ export default function Footer() {
 						<img src="/snappi-logo.png" />
 					</div>
 					<div className="flex flex-col">
-						<div className="font-bold">ABOUT</div>
+						<div className="font-bold mb-2">ABOUT</div>
 						<a
 							href="#"
-							className="text-[12px] my-2">
+							className="text-[12px] my-1">
 							About Snappi
 						</a>
 						<a
 							href="#"
-							className="text-[12px] my-2">
+							className="text-[12px] my-1">
 							Terms of Use
 						</a>
 						<a
 							href="#"
-							className="text-[12px] my-2">
+							className="text-[12px] my-1">
 							Privacy Policy
 						</a>
 						<a
 							href="#"
-							className="text-[12px] my-2">
+							className="text-[12px] my-1">
 							Return Policy
 						</a>
 						<a
 							href="#"
-							className="text-[12px] my-2">
+							className="text-[12px] my-1">
 							Cookie Policy
 						</a>
 					</div>
 					<div className="flex flex-col">
+						<div className="font-bold mb-2">HELP</div>
 						<a
 							href="#"
-							className="font-bold">
-							HELP
-						</a>
-						<a
-							href="#"
-							className="text-[12px] my-2">
+							className="text-[12px] my-1">
 							Snappi Returns
 						</a>
 						<a
 							href="#"
-							className="text-[12px] my-2">
+							className="text-[12px] my-1">
 							Contact Support
 						</a>
 						<a
 							href="#"
-							className="text-[12px] my-2">
+							className="text-[12px] my-1">
 							FAQ
 						</a>
 
-						<a className="text-[12px] my-2">Request a Return</a>
+						<a className="text-[12px] my-1">Request a Return</a>
 					</div>
 					<div>
 						<div className="font-bold">VISIT</div>
@@ -96,6 +92,10 @@ export default function Footer() {
 					</div>
 				</div>
 			</div>
+
+			<div className="h-[1px] bg-[#8f8f8f]"></div>
+
+			<div className="text-center my-5 text-[12px]">@ 2023 CAPITEC Snappi Store. All Rights Reserved.</div>
 		</div>
 	);
 }

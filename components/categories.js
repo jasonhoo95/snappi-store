@@ -9,7 +9,7 @@ export default function Category() {
 					/>
 				</div>
 
-				<div>Automotive</div>
+				<div className="w-full ">Automotive</div>
 			</div>
 			<div className="grey-card">
 				<div className="w-[80%] h-[70px] mb-3">
@@ -19,7 +19,7 @@ export default function Category() {
 					/>
 				</div>
 
-				<div>Baby & toddler</div>
+				<div className="w-full">Baby & toddler</div>
 			</div>
 			<div className="grey-card">
 				<div className="w-[80%] h-[70px] mb-3">
@@ -29,7 +29,7 @@ export default function Category() {
 					/>
 				</div>
 
-				<div>Baby & toddler</div>
+				<div className="w-full">Beauty & Health</div>
 			</div>
 			<div className="grey-card">
 				<div className="w-[80%] h-[70px] mb-3">
@@ -39,7 +39,7 @@ export default function Category() {
 					/>
 				</div>
 
-				<div>Camping & Outdoor</div>
+				<div className="w-full">Camping & Outdoor</div>
 			</div>
 			<div className="grey-card">
 				<div className="w-[80%] h-[70px] mb-3">
@@ -49,7 +49,7 @@ export default function Category() {
 					/>
 				</div>
 
-				<div>Dairy & Alternative</div>
+				<div className="w-full">Dairy & Alternative</div>
 			</div>
 			<div className="grey-card">
 				<div className="w-[80%] h-[70px] mb-3">
@@ -59,7 +59,7 @@ export default function Category() {
 					/>
 				</div>
 
-				<div>Drinks</div>
+				<div className="w-full">Drinks</div>
 			</div>
 			<div className="grey-card">
 				<div className="w-[80%] h-[70px] mb-3">
@@ -69,7 +69,7 @@ export default function Category() {
 					/>
 				</div>
 
-				<div>Electronics</div>
+				<div className="w-full">Electronics</div>
 			</div>
 			<div className="grey-card">
 				<div className="w-[80%] h-[70px] mb-3">
@@ -79,7 +79,7 @@ export default function Category() {
 					/>
 				</div>
 
-				<div>Fashion</div>
+				<div className="w-full">Fashion</div>
 			</div>
 			<div className="grey-card">
 				<div className="w-[80%] h-[70px] mb-3">
@@ -89,7 +89,7 @@ export default function Category() {
 					/>
 				</div>
 
-				<div>Food Cupboard</div>
+				<div className="w-full">Food Cupboard</div>
 			</div>
 			<div className="grey-card">
 				<div className="w-[80%] h-[70px] mb-3">
@@ -99,7 +99,7 @@ export default function Category() {
 					/>
 				</div>
 
-				<div>Garden & Outdoor</div>
+				<div className="w-full">Garden & Outdoor</div>
 			</div>
 
 			<div className="grey-card">
@@ -110,7 +110,7 @@ export default function Category() {
 					/>
 				</div>
 
-				<div>Home & Accessories</div>
+				<div className="w-full">Home & Accessories</div>
 			</div>
 
 			<div className="grey-card">
@@ -121,7 +121,7 @@ export default function Category() {
 					/>
 				</div>
 
-				<div>Home improvement</div>
+				<div className="w-full">Home improvement</div>
 			</div>
 
 			<div className="grey-card">
@@ -143,7 +143,7 @@ export default function Category() {
 					/>
 				</div>
 
-				<div>Music, Book & Dvds</div>
+				<div className="w-full">Music, Book & Dvds</div>
 			</div>
 
 			<div className="grey-card">
@@ -154,7 +154,7 @@ export default function Category() {
 					/>
 				</div>
 
-				<div>Office & Stationary</div>
+				<div className="w-full">Office & Stationary</div>
 			</div>
 
 			<div className="grey-card">
@@ -165,7 +165,7 @@ export default function Category() {
 					/>
 				</div>
 
-				<div>Pets</div>
+				<div className="w-full">Pets</div>
 			</div>
 		</div>
 	);

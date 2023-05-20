@@ -23,7 +23,9 @@ export default function SearchBar() {
 				</div>
 			</div>
 
-			<div>
+			<div className="mr-[40px] relative">
+				<div className="absolute top-[-5px] right-0 rounded-[50%] text-center w-[20px] text-white h-[20px] bg-[#EF2B5F]">5</div>
+
 				<img src="/cart.png" />
 			</div>
 		</div>

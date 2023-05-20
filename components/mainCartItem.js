@@ -1,16 +1,16 @@
-export default function CartItem({ image }) {
+export default function MainCartItem({ image }) {
 	return (
 		<div className="card-item relative">
 			<div className="absolute left-0 top-[10px] bg-[#EF2B5F] text-[12px] p-1 text-white">Snappi Deals</div>
 			<div className="absolute right-[10px] top-[10px]">
 				<img
-					className="w-[20px] h-[20px]"
+					className="w-[30px] h-[30px]"
 					src="/heart.png"
 				/>
 			</div>
 			<div className="flex items-center justify-center my-[30px]">
 				<img
-					className="h-[90px]"
+					className="h-[130px]"
 					src={`/${image}.png`}
 				/>
 			</div>
