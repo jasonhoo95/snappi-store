@@ -15,7 +15,6 @@ export default function Home() {
 
 		// Get the name at the random index
 		const randomName = names[randomIndex];
-		console.log(randomName, "name");
 
 		// Return the random name
 		return randomName;
